@@ -8,6 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 16px 200px;
 }
 
 ul {
@@ -18,39 +19,55 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 90px;
 }
 
 .right-links {
     display: flex;
-    gap: 14px;
+    gap: 18px;
 }
 
 .logo {
     color: #F9FAF8;
-    size: 24px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .right-links a {
     text-decoration: none;
     color: #E5E7EB;
-    size: 18px;
+    font-size: 18px;
 }
 
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.left {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.right {
+    display: flex;
+    background-color: grey;
+    color: #E5E7EB;
+    padding: 60px 170px;
 }
 
 .hero-main {
-    size: 48px;
-    font-weight: 900;
-    color: #F9FAF8
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: 6px;
 }
 
 .hero-sub {
-    color: #E5E7EB   
+    color: #E5E7EB;
+    margin: 8px 0;
 }
 
 .left button {
@@ -62,7 +79,3 @@ ul {
     border: none;
 }
 
-.right {
-    background-color: lightgray;
-    color: #E5E7EB
-}
