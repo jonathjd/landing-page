@@ -1,0 +1,17 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: white;
+}
+
