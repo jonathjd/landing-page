@@ -4,4 +4,4 @@ Demonstrated skills:
 - HTML
 - CSS
 
-Live Demo: jonathjd.github.io/landing-page
+Live Demo: https://jonathjd.github.io/landing-page
