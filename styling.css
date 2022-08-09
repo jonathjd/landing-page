@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 16px 200px;
+    padding: 0px 200px;
 }
 
 ul {
@@ -29,7 +29,7 @@ ul {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .right-links a {
@@ -73,9 +73,61 @@ ul {
 .left button {
     background-color: #3882f6;
     color: #E5E7EB;
+    font-size: 17px;
     border-radius: 8px;
-    width: 90px;
-    height: 27px;
+    width: 110px;
+    height: 35px;
     border: none;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px, 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 200px;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.images {
+    color: #d3d3d3;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 200px;
+    gap: 0.5em;
+}
+
+.square {
+    height: 170px;
+    width: 170px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 14px;
+    border-color: #3882f6;
+    margin-top: 15px;
+}
+
+.main-body {
+    display: block;
+    margin: 0px;
+}
+
 
